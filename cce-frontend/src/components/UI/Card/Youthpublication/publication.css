@@ -1,0 +1,100 @@
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+.Youth {
+  height: 450px;
+  float: left;
+  width: 23%;
+  margin: 12px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.35) !important;
+}
+.YouthResponsive{
+    display: flex;
+    margin: 0 15px;
+}
+.YouthResponsiveFull{
+  width: 70%;
+text-align: center;
+}
+
+.Youthbody {
+  padding: 3rem 0 !important;
+}
+.Youthimgtop {
+  width: 80%;
+  height: 100%;
+}
+
+.YouthPrimary {
+  padding: 35px;
+  color: yellow;
+  text-align: center;
+}
+.YouthHr {
+  border-top: 1px solid yellow;
+  width: 35%;
+}
+.Youthflex-container > div {
+  background-color: #f1f1f1;
+  margin: 0px 10px;
+  padding: 12px;
+  font-size: 20px;
+}
+.Youthreding{
+  height: 25%;
+  border: 2px solid #40a4c8;
+  color: rgb(40, 40, 40);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 50px;
+}
+.Youthtitle{
+  height: 70px;
+}
+.newsReadMoreButton {
+  border: 2px solid #40a4c8;
+  color: rgb(40, 40, 40);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.newsReadMoreButton:hover {
+  background-color: #40a4c8;
+  color: rgb(190, 171, 171);
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .Youth {
+    margin: 0;
+    width: 100%;
+  }
+  .YouthResponsive {
+    display: block;
+    width: 100%;
+  }
+  .Youth:hover{
+    width: 100%;
+  }
+  .Youthimgtop{
+    width: 100%;
+  }
+  .YouthPrimary{
+    width: 100%;
+  }
+  .YouthHr{
+    width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+.CivicEducationPrimary {
+  color: red;
+  text-align: center;
+}
+.CivicEducationProgramHr {
+  border-top: 3px solid red;
+  width: 40%;
+}
+
+.civicEducationProgramitem1 {
+  background-color: bisque;
+  width: 400px;
+  margin: 20px auto;
+  border: 2px solid #fef0e3;
+  padding: 10px;
+  border-radius: 50px;
+}
+.CivicEducationProgramgridcontainer {
+  width: 400px;
+  margin: 20px auto;
+  padding: 2px;
+  display: grid;
+  grid-template-areas: "header";
+}
+.img{
+  width: 200px;
+  height: 250px;
+}
+.civicEducationhvree  {
+  top: 1456px;
+  left: 600px;
+  width: 800px;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #e71818;
+  background-color: #ffe4c4;
+  font-family: "PT Sans";
+  letter-spacing: 0.03em;
+  border-radius: 20px;
+  margin: auto;
+}
+@media (max-width: 500px){
+  .CivicEducationProgramgridcontainer {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .civicEducationProgramitem1 {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .civicEducationhvree {
+    margin: 0 15px;
+    width: 100%;
+  }
+}

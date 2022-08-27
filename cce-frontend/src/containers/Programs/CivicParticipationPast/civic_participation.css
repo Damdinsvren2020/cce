@@ -1,0 +1,145 @@
+.CivicParticipationProgramPrimary {
+  color: #38b7e5;
+  text-align: center;
+  font-family: "PT sans";
+  margin-bottom: 0;
+}
+.CivicParticipationProgramHr {
+  border-top: 3px solid #38b7e5;
+  width: 40%;
+}
+.CivicParticipationProgramitem2Hr {
+  border-top: 3px solid #38b7e5;
+  width: 94%;
+}
+.item2 {
+  top: 1456px;
+  left: 1350px;
+  width: 1500px;
+  height: 200px;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #38b7e5;
+}
+.CivicParticipationProgramgridcontainer {
+  margin: auto;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  background-color: #cdeffc;
+  padding: 10px;
+  font-family: PT Sans;
+  font-size: 16px;
+}
+
+.CivicParticipationProgramgridcontainer > div {
+  text-align: left;
+  padding: 6px 10px;
+  margin: 8px;
+  letter-spacing: 0.03em;
+}
+
+.CivicParticipationProgramitem1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.CivicParticipationProgramitem1Hr {
+  border-top: 3px solid white;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.CivicParticipationProgramitem2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.CivicParticipationProgramitem3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.CivicParticipationProgramitem4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.CivicParticipationProgramitem5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.CivicParticipationProgramitem6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.CivicParticipationProgramitem7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.Civicparticipationhvree {
+  top: 1456px;
+  left: 600px;
+  width: 800px;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #1286ac;
+  background-color: #cdeffc;
+  font-family: "PT Sans";
+  letter-spacing: 0.03em;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.item1p {
+  font-size: 14px;
+}
+.item2p {
+  font-size: 14px;
+  margin: 0;
+}
+.item3p {
+  font-size: 14px;
+}
+.item4p {
+  font-size: 14px;
+}
+.item5p {
+  font-size: 14px;
+}
+.item6p {
+  font-size: 14px;
+}
+.item7p {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .CivicParticipationProgramgridcontainer {
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    background-color: #cdeffc;
+    padding: 10px;
+    font-family: PT Sans;
+    font-size: 16px;
+  }
+
+  .Civicparticipationhvree {
+    top: 1456px;
+    left: 600px;
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #1286ac;
+    background-color: #cdeffc;
+    font-family: "PT Sans";
+    letter-spacing: 0.03em;
+    border-radius: 20px;
+    margin: auto;
+  }
+}

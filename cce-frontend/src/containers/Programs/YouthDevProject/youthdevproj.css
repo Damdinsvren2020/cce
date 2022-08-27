@@ -1,0 +1,100 @@
+.youthdevprojGarchig {
+  color: #ead904;
+  text-align: center;
+  font-family: PT Sans;
+  margin-bottom: 0px;
+}
+.youthdevprojzuraas {
+  border-top: 3px solid #ead904;
+  width: 40%;
+  margin-top: 0px;
+}
+
+.youthdevprojitems {
+  top: 1456px;
+  left: 600px;
+  width: 800px;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #f6a843;
+  background-color: #f5eb65;
+  font-family: "PT Sans";
+  letter-spacing: 0.03em;
+  border-radius: 20px;
+  margin: auto;
+}
+.youthdevprojheads {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.youthdevprojtexts {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.youthdevprojmain {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.youthdevprojflexcontainer {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+   and if we allow the items to wrap 
+ * Remember this is the same as:
+ * flex-direction: row;
+ * flex-wrap: wrap;
+ */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.youthdevprojflexitem {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .youthdevprojmain {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+  .youthdevprojitems {
+    top: 1456px;
+    left: 600px;
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #f6a843;
+    background-color: #f5eb65;
+    font-family: "PT Sans";
+    letter-spacing: 0.03em;
+    border-radius: 20px;
+    margin: auto;
+  }
+}

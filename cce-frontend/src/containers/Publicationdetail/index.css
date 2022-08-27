@@ -1,0 +1,37 @@
+.PublicationDetailSection {
+  display: flex;
+  padding: 15px 0;
+}
+
+.PublicationDetailContainer {
+  display: table;
+  margin: 0 15px;
+  width: 70%;
+}
+
+.PublicationDetailImg {
+  width: 100%;
+  margin: 0;
+}
+.PublicationDetailTitle {
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+.PublicationDetailText {
+  text-align: center;
+  padding: 15px;
+}
+
+.socialContainer {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .newsDetailContainer {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .socialContainer {
+    display: none;
+  }
+}

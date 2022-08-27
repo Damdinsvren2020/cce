@@ -1,0 +1,10 @@
+.AboutBMheader{
+    margin: "15px auto";
+    padding: "15px";
+    width: "500px";
+    text-align: center;
+    background-color: #494d4c;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #5fadad;
+}

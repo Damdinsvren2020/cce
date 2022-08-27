@@ -1,0 +1,59 @@
+.FooterContainer {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  background-color: rgb(44, 44, 44);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.FooterInfoTitle {
+  width: 250px;
+  margin: 10px;
+  border-bottom: 4px solid #5fadad;
+}
+
+.FooterInfo {
+  display: table;
+  width: 100%;
+}
+
+.FooterLangButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.FooterInfoDetail {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.FooterLanguage {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .FooterContainer {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .FooterContainer hr {
+    margin: 0;
+  }
+  .FooterInfoTitle {
+    margin: auto;
+  }
+  .FooterInfoDetail {
+    width: 100%;
+  }
+}

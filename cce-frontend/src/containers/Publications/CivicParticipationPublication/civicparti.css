@@ -1,0 +1,43 @@
+.PartiResponsiveFull{
+  display: table;
+}
+.PartiResponsive{
+  width: 100%;
+  text-align: center;
+}
+.PartiHr{
+  border-top: 1px solid blue;
+  width: 35%;
+}
+.PartiPrimary{
+  margin: 35px;
+  color: blue;
+  text-align: center;
+}
+.newsReadMoreButton{
+  border: 2px solid #40a4c8;
+  color: rgb(40, 40, 40);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.newsReadMoreButton:hover {
+  background-color: #40a4c8;
+  color: rgb(190, 171, 171);
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .PartiResponsiveFull{
+    width: 100%;
+  }
+  .PartiResponsive {
+    margin: 0 15px;
+  }
+  
+}

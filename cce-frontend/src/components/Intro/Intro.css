@@ -1,0 +1,28 @@
+.HomeIntro {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./about.png");
+  margin: 15px 0 15px 0;
+  padding: 30px 15px 30px 15px;
+}
+
+.HomeIntroTitle {
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+  padding: 25px 30px 25px 30px;
+}
+.HomeIntroText {
+  text-align: center;
+  color: #fff;
+}
+.HomeIntroHr {
+  background-color: #9dece2;
+}
+
+@media(max-width:500px){
+  .HomeIntro{
+    margin: 0;
+    padding: 0;
+  }
+}

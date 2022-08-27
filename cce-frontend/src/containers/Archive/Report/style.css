@@ -1,0 +1,15 @@
+.ArchiveReportTitle {
+  margin-top: 15px;
+}
+
+.ArchiveReportContainer {
+  margin: 20px;
+  display: table;
+}
+
+@media (max-width: 500px) {
+  .ArchiveReportContainer {
+    width: 100%;
+    margin: 0;
+  }
+}

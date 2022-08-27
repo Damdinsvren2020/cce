@@ -1,0 +1,22 @@
+.Logo {
+  background-color: white;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+}
+
+.Logo img {
+  height: 100%;
+}
+
+.Logo p {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 499px) {
+  .Logo p {
+    display: none;
+  }
+}

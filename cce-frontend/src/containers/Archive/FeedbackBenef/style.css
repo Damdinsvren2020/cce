@@ -1,0 +1,30 @@
+.FeedbackBenefSection {
+  display: flex;
+  padding: 15px 0;
+}
+
+.FeedbackBenefContainer {
+  display: table;
+  width: 100%;
+}
+.FeedbackBenefContainerFull{
+  width: 70%;
+  text-align: center;
+}
+
+.socialContainer {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .FeedbackBenefContainerFull{
+    width: 100%;
+  }
+  .FeedbackBenefContainer {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .socialContainer {
+    display: none;
+  }
+}

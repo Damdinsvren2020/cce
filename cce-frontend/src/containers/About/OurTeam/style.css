@@ -1,0 +1,14 @@
+﻿.ourTeamContainer {
+  display: table;
+}
+
+@media (max-width: 500px) {
+  .ourTeamContainer {
+    display: inline-block;
+  }
+}
+@media (max-width: 650px) {
+  .ourTeamContainer {
+    display: inline-block;
+  }
+}

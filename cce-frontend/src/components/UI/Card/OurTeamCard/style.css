@@ -1,0 +1,32 @@
+.ourTeamCardContainer {
+  width: 23%;
+  float: left;
+  text-align: center;
+  border: 2px solid rgb(40, 40, 40);
+  padding: 15px;
+  margin: 10px;
+  height: 700px;
+}
+
+.ourTeamCardContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ourTeamCardName {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+.ourTeamCardText {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 500px) {
+  .ourTeamCardContainer {
+    width: 100%;
+    margin: 15px auto;
+    height: 600px;
+  }
+}

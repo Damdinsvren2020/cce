@@ -1,0 +1,79 @@
+.ecoGarchig {
+  color: #1aa65d;
+  text-align: center;
+  font-family: PT Sans;
+  margin-bottom: 0px;
+}
+.ecozuraas {
+  border-top: 3px solid #1aa65d;
+  width: 40%;
+  margin-top: 0px;
+}
+.Ecop1 {
+  font-size: 15px;
+  font-family: PT Sans;
+}
+.ecorow1 {
+  display: flex;
+  margin: auto;
+  width: 800px;
+}
+
+.ecorow2 {
+  display: flex;
+  margin: auto;
+  width: 1000px;
+}
+
+.ecoicon {
+  background: #93f1a6;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.ECO {
+  background-color: #d4f7e4;
+  margin: 5px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 0.03em;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #d4f7e4;
+  border-radius: 10px;
+}
+
+.ECObody {
+  padding: 1px 10px 3px 25px;
+}
+
+@media (max-width: 800px) {
+  .ECO {
+    background-color: #d4f7e4;
+    margin: 10px auto;
+    font-family: PT Sans;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  .ecorow1 {
+    margin: auto;
+    display: block;
+    width: auto;
+  }
+
+  .ecorow2 {
+    margin: auto;
+    display: block;
+    width: auto;
+  }
+}

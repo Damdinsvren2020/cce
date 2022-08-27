@@ -1,0 +1,18 @@
+﻿.partnersContainer {
+  display: table;
+}
+.partnershr {
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .partnersContainer {
+    display: inline-block;
+  }
+}
+@media (max-width: 650px) {
+  .partnersContainer {
+    display: inline-block;
+  }
+}

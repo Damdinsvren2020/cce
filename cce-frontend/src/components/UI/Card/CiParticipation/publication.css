@@ -1,0 +1,101 @@
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+.Parti {
+  height: 450px;
+    float: left;
+    width: 23%;
+    margin: 12px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.35) !important;
+}
+.PartiResponsive{
+  display: flex;
+  margin: 0 15px;
+}
+.PartiResponsiveFull{
+  width: 70%;
+  text-align: center;
+}
+.Partibody {
+  padding: 3rem 0 !important;
+
+}
+.Partiimgtop{
+  width: 80%;
+    height: 100%;
+}
+.Partititle{
+  height: 70px;
+}
+
+.PartiPrimary {
+  padding: 35px;
+  color: #38b7e5;
+  text-align: center;
+}
+.PartiHr {
+  border-top: 1px solid #38b7e5;
+  width: 35%;
+}
+.Partiflex-container > div {
+  background-color: #f1f1f1;
+  margin: 0px 10px;
+  padding: 12px;
+  font-size: 20px;
+}
+.parreding{
+  height: 25%;
+  border: 2px solid #40a4c8;
+  color: rgb(40, 40, 40);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.newsReadMoreButton {
+  border: 2px solid #40a4c8;
+    color: rgb(40, 40, 40);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.newsReadMoreButton:hover {
+  background-color: #40a4c8;
+  color: rgb(190, 171, 171);
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .Parti {
+    margin: 0;
+    width: 100%;
+  }
+  .PartiResponsive {
+    display: block;
+    width: 100%;
+  }
+  .Parti:hover{
+    width: 100%;
+  }
+  .Partiimgtop{
+    width: 100%;
+  }
+  .PartiPrimary{
+    width: 100%;
+  }
+  .PartiHr{
+    width: 100%;
+  }
+}

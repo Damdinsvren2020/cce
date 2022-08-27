@@ -1,0 +1,51 @@
+.succesStoriesSection {
+  display: flex;
+  padding: 15px 0;
+}
+
+.succesStoriesContainer {
+  display: table;
+  margin: 0 15px;
+}
+
+.succesStoriesContainerFull {
+  width: 70%;
+  text-align: center;
+}
+
+.socialContainer {
+  width: 30%;
+  position: sticky;
+  top: 0;
+}
+
+.storiesReadMoreButton {
+  border: 2px solid #40a4c8;
+  color: rgb(40, 40, 40);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.storiesReadMoreButton:hover {
+  background-color: #40a4c8;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .succesStoriesContainerFull {
+    width: 100%;
+  }
+  .succesStoriesContainer {
+    margin: 0 15px;
+  }
+  .socialContainer {
+    display: none;
+  }
+}

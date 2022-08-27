@@ -1,0 +1,43 @@
+.CeResponsiveFull{
+    display: table;
+}
+.CeResponsive{
+    width: 100%;
+    text-align: center;
+}
+.CeHr{
+    border-top: 1px solid red;
+    width: 35%;
+}
+.CePrimary{
+    margin: 35px;
+    color: red;
+    text-align: center;
+}
+.newsReadMoreButton{
+    border: 2px solid #40a4c8;
+    color: rgb(40, 40, 40);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.newsReadMoreButton:hover {
+    background-color: #40a4c8;
+    color: rgb(190, 171, 171);
+    text-decoration: none;
+  }
+  @media (max-width: 500px) {
+    .CeResponsiveFull{
+      width: 100%;
+    }
+    .CeResponsive {
+      margin: 0 15px;
+    }
+    
+  }

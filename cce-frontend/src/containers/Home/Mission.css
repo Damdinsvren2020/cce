@@ -1,0 +1,172 @@
+﻿.missioncontainer {
+  font-size: unset;
+  letter-spacing: 0.08em;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.missionLink {
+  width: 25%;
+}
+
+.missionLink:hover{
+  color: #fff;
+}
+
+.civicedu {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/images/Home/civicedu.png");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  padding: 25px;
+}
+
+.civicpar {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/images/Home/civicpar.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.youthdev {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/images/Home/youthdev.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.ecoedu {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/images/Home/ecoedu.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+@media (max-width: 650px) {
+  .missioncontainer {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .civicedu {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/civicedu.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .civicpar {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/civicpar.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .youthdev {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/youthdev.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .ecoedu {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/ecoedu.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  .missioncontainer {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .civicedu {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/civicedu.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .civicpar {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/civicpar.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .youthdev {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/youthdev.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+
+  .ecoedu {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/Home/ecoedu.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 8% 2%;
+  }
+}
+
+

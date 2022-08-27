@@ -1,0 +1,101 @@
+body {
+    background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+  }
+  .Ce {
+    height: 450px;
+    float: left;
+    width: 23%;
+    margin: 12px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.35) !important;
+  }
+  .CeResponsive{
+      display: flex;
+      margin: 0 15px;
+  }
+  .CeResponsiveFull{
+    width: 70%;
+  text-align: center;
+}
+  
+  .Cebody {
+    padding: 3rem 0 !important;
+  }
+  .Ceimgtop {
+    width: 80%;
+    height: 100%;
+  }
+  
+  .CePrimary {
+    padding: 35px;
+    color: #ead904;
+    text-align: center;
+  }
+  .CeHr {
+    border-top: 1px solid#ead904;
+    width: 35%;
+  }
+  .Ceflex-container > div {
+    background-color: #f1f1f1;
+    margin: 0px 10px;
+    padding: 12px;
+    font-size: 20px;
+  }
+  .cereding{
+    height: 25%;
+    border: 2px solid #40a4c8;
+    color: rgb(40, 40, 40);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 50px;
+  }
+  .Cetitle{
+    height: 70px;
+  }
+  .newsReadMoreButton {
+    border: 2px solid #40a4c8;
+    color: rgb(40, 40, 40);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .newsReadMoreButton:hover {
+    background-color: #40a4c8;
+    color: rgb(190, 171, 171);
+    text-decoration: none;
+  }
+  
+  @media (max-width: 500px) {
+    .Ce {
+      margin: 0;
+      width: 100%;
+    }
+    .CeResponsive {
+      display: block;
+      width: 100%;
+    }
+    .Ce:hover{
+      width: 100%;
+    }
+    .Ceimgtop{
+      width: 100%;
+    }
+    .CePrimary{
+      width: 100%;
+    }
+    .CeHr{
+      width: 100%;
+    }
+  }
+  

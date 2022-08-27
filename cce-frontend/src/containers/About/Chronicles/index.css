@@ -1,0 +1,90 @@
+﻿.AboutChronicles {
+  margin: 15px auto;
+  padding: 15px;
+  text-align: center;
+  font-family: PT Sans;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.ChroniclesGrid {
+  font-family: PT Sans;
+  letter-spacing: 0.1em;
+  font: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.Chroniclesyears {
+  font-size: 18px;
+  color: #fff;
+  width: 150px;
+  margin: 0px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Chroniclesinfoleft {
+  width: 400px;
+  border: 10px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.Chroniclesinforight {
+  width: 400px;
+  text-align: right;
+  font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  .ChroniclesGrid {
+    font-family: PT Sans;
+    letter-spacing: 0.1em;
+    font: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .Chroniclesyears {
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 650px) {
+  .ChroniclesGrid {
+    font-family: PT Sans;
+    letter-spacing: 0.1em;
+    font: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .Chroniclesyears {
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .ChroniclesGrid {
+    font-family: PT Sans;
+    letter-spacing: 0.1em;
+    font: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .Chroniclesyears {
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

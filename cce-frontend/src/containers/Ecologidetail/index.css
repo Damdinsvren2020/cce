@@ -1,0 +1,46 @@
+.ecoDetailSection {
+    display: flex;
+    padding: 15px 0;
+  }
+  
+  .ecoDetailContainer {
+    display: table;
+    margin: 0 15px;
+    width: 70%;
+  }
+  
+  .ecoDetailImg {
+    width: 100%;
+    margin: 0;
+  }
+  .ecoDetailTitle {
+    margin: 15px 0 15px 0;
+    text-align: center;
+  }
+  .ecoDetailText {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .socialContainer {
+    width: 30%;
+  }
+  
+  @media (max-width: 500px) {
+    .newsDetailContainer {
+      margin: 0 15px;
+      width: 100%;
+    }
+    .socialContainer {
+      display: none;
+    }
+  }
+  @media (max-width: 650px) {
+    .newsDetailContainer {
+      margin: 0 15px;
+      width: 100%;
+    }
+    .socialContainer {
+      display: none;
+    }
+  }

@@ -1,0 +1,38 @@
+.pubdetailSection {
+    display: flex;
+    padding: 15px 0;
+  }
+  
+  .pubdetailContainer {
+    display: table;
+    margin: 0 15px;
+    width: 70%;
+  }
+  
+  .pubdetailImg {
+    width: 100%;
+    margin: 0;
+  }
+  .pubdetailTitle {
+    margin: 15px 0 15px 0;
+    text-align: center;
+  }
+  .pubdetailText {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .socialContainer {
+    width: 30%;
+  }
+  
+  @media (max-width: 500px) {
+    .pubdetailContainer {
+      margin: 0 15px;
+      width: 100%;
+    }
+    .socialContainer {
+      display: none;
+    }
+  }
+  
